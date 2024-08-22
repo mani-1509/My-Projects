@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(60, 0, 130);
+    height: 1000vh;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-family: "Bungee Tint", sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+    
+  }
+  
+  li {
+    display: inline;
+    list-style: none;
+  }
+  
+  li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  li a:hover {
+    border-bottom: 2px solid  ;
+  }
+
+  /* header */
+
+  .free_fire {
+    border-radius: 50px;
+    margin-left: 150px;
+    width: 80%;
+  }
+
+  header {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: 80% 600px ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2021/10/Free-Fire.jpg?ssl=1&quality=80&w=800);
+  }
