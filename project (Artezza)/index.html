@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Artezza</title>
+  </head>
+  <body>
+    <!-- nav-bar -->
+
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-logo">
+          <li>
+            <a href="#sectionhome" onclick="display('sectionhome')">Artezza</a>
+          </li>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a
+              href="#sectionhome"
+              onclick="display('sectionhome')"
+              class="nav-link"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#sectiongallery"
+              onclick="display('sectiongallery')"
+              class="nav-link"
+              >Gallery</a
+            >
+          </li>
+          <li>
+            <a
+              href="#sectionaboutus"
+              onclick="display('sectionaboutus')"
+              class="nav-link"
+              >About Us</a
+            >
+          </li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="logIn-wrapper">
+      <a href="#sectionLogIn" onclick="display('sectionLogIn')" class="logIn"
+        >Log In</a
+      >
+    </div>
+
+    <!-- home -->
+
+    <div id="sectionhome">
+      <header>
+        <h1 class="main-headings">
+          WHAT <br />
+          IS CALLED ART?
+        </h1>
+        <p class="primary-headings">
+          Art, also called (to distinguish it from other art forms) visual art,
+          a
+          <span class="bg-gray"> visual object or experience </span> consciously
+          created through an expression of skill or imagination.
+        </p>
+      </header>
+
+      <main>
+        <img
+          src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=745&q=80"
+          class="img"
+        />
+        <img
+          src="https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+          class="img"
+        />
+        <img
+          src="https://images.pexels.com/photos/20418667/pexels-photo-20418667/free-photo-of-pink-rose-in-nature.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          class="img"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1495462911434-be47104d70fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+          class="img"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80"
+          class="img"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1579783901837-c78c2310be05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=804&q=80"
+          class="img"
+        />
+      </main>
+
+      <section class="section-three">
+        <h1 class="main-headings">7 TYPES OF ART</h1>
+        <p class="primary-headings">
+          The seven different art forms are
+          <span class="bg-gray">
+            Painting, Sculpture, Literature, Architecture, Theater, Film, and
+            Music
+          </span>
+          . However, back in the day, the seven different art forms were called
+          the Liberal Arts, consisting of Grammar, Logic, Rhetoric, Arithmetic,
+          Geometry, Astronomy, and Music.
+        </p>
+
+        <div class="list">
+          <div class="item">
+            <h1>PAINTING</h1>
+            <img
+              src="https://images.unsplash.com/photo-1579965342575-16428a7c8881?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=762&q=80"
+            />
+          </div>
+          <div class="item">
+            <h1>SCULPTURE</h1>
+            <img
+              src="https://images.unsplash.com/photo-1637666505754-7416ebd70cbf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+            />
+          </div>
+          <div class="item">
+            <h1>LITERATURE</h1>
+            <img
+              src="https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            />
+          </div>
+          <div class="item">
+            <h1>ARCHITECTURE</h1>
+            <img
+              src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2020&q=80"
+            />
+          </div>
+          <div class="item">
+            <h1>CINEMA</h1>
+            <img
+              src="https://images.unsplash.com/photo-1604975701397-6365ccbd028a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+            />
+          </div>
+          <div class="item">
+            <h1>MUSIC</h1>
+            <img
+              src="https://images.unsplash.com/photo-1598547535077-26d10ae80496?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=781&q=80"
+            />
+          </div>
+          <div class="item">
+            <h1>THEATER</h1>
+            <img
+              src="https://images.unsplash.com/photo-1578920568769-3c1b145bc9ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Gallery -->
+    <div id="sectiongallery" style="display: none">
+      <div class="galleryContainer">
+        <img
+          src="https://media.timeout.com/images/103166739/1920/1080/image.webp"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1579783901586-d88db74b4fe4?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1584727638096-042c45049ebe?q=80&w=1978&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1577084381359-5e873214ff2a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGFydHxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://plus.unsplash.com/premium_photo-1673288397237-11ab6ff6bee3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1577720643272-265f09367456?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://media.timeout.com/images/105293264/1920/1080/image.webp"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1578926288207-a90a5366759d?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629612/u0fqvia21kw3dwruvtml.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629612/od89c58opdtnzfubnx5c.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629612/od89c58opdtnzfubnx5c.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629613/ymnvmm9t8px8vehe2f0i.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629613/x27urmon9fvbjfg9iyji.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629613/xvbj7uq8ntavk6rgxvet.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629613/pxbhkxn2coxhfnssppvu.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629613/vugdsne2pvsrqirqngoi.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+        src=https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629613/v8etzgwh7xffb1e4ycvq.jpg"
+        alt="" class="list" />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629614/kvrmoy2eec3wxeckhvlu.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629614/xes9gpvmksnigu1ue3xa.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629614/bbq4sijqvsgzjpox9ffn.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://res.cloudinary.com/dg0u5ptwr/image/upload/v1730629614/dhqkckxw065db9etuz0x.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFydHxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1577084381314-cae9920e6871?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGFydHxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1579541591970-e5780dc6b31f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGFydHxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1578301978162-7aae4d755744?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGFydHxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.pexels.com/photos/3246665/pexels-photo-3246665.png?auto=compress&cs=tinysrgb&w=600"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.pexels.com/photos/1572386/pexels-photo-1572386.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1579541718334-85e6075516f2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://www.tallengestore.com/cdn/shop/products/Indian_Art_-_Acrylic_Painting_-_Krishna_With_Peacock_3ad9450f-f6d3-4e25-bb49-b866ea72ccbe.jpg?v=1568967447"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://i.etsystatic.com/25338275/r/il/9b61ed/4762707601/il_570xN.4762707601_dkfd.jpg"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/86342/252452/1655983273158_20220616-180740__46890.1687004840.jpg?c=2"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://www.jiomart.com/images/product/original/rve5hxvn5h/vasl-wood-yellow-canvas-painting-modern-art-wall-decor-paintings-24-x-36-inch-product-images-orve5hxvn5h-p602610169-0-202306240652.jpg?im=Resize=(420,420)"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfSLYuzbn0nZinJuuYylQcZRTMiqzPvD3Ug&s"
+          alt=""
+          class="list"
+        />
+        <img
+          src="https://png.pngtree.com/thumb_back/fh260/background/20230611/pngtree-an-abstract-painting-of-a-colorful-woman-s-face-image_2879096.jpg"
+          alt=""
+          class="list"
+        />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+        <img src="" alt="" class="list" />
+      </div>
+    </div>
+
+    <!-- About Us -->
+    <div id="sectionaboutus" style="display: none">
+      <div class="bg-container">
+        <div class="main-heading">
+          <h1>About Us</h1>
+        </div>
+        <div class="para">
+          <p>
+            Artezza is a vibrant platform dedicated to artists of all levels,
+            where creativity and community come together. Whether you're a
+            budding painter or an experienced artist, Artezza provides a space
+            for you to showcase your artwork, share your skills, and connect
+            with fellow creators. With a focus on quality materials and
+            innovative tools, Artezza empowers artists to express themselves
+            fully. The platform encourages collaboration and inspiration,
+            offering features that allow users to post their paintings, receive
+            feedback, and participate in challenges. Join Artezza to celebrate
+            your artistic journey and inspire others with your unique vision!
+          </p>
+        </div>
+        <div>
+          <h2 class="team">TEAM</h2>
+          <p class="para-1">Vishwaksena Reddy katukuri</p>
+          <p class="para-1">Sharvan Gajula</p>
+          <p class="para-2">Shalini Reddy</p>
+          <p class="para-2">Manvetha Vinnakota</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign Up -->
+    <div id="sectionSignup" style="display: none">
+      <div class="logIn-container">
+        <img
+          src="https://cdn.discordapp.com/attachments/1285907092854669323/1302562210903752764/artezza_logo-removebg-preview.png?ex=672a8b57&is=672939d7&hm=a2fa748bb04275f2cb2de16db9582f481398221161943cdeb053ac213cbf6523&"
+          alt="Logo"
+          class="logLogo"
+        />
+        <h1 class="loginText">Create an account</h1>
+        <div class="loginInfo">
+          <form id="signupForm" onsubmit="validateSignupForm(event)">
+            <div class="inputBox">
+              <input
+                type="text"
+                placeholder="User Name"
+                id="signupUsername"
+                class="input"
+                required
+              />
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="inputBox">
+              <input
+                type="email"
+                placeholder="Email"
+                id="signupEmail"
+                class="input"
+                required
+              />
+              <i class="fa-solid fa-at"></i>
+            </div>
+            <div class="inputBox">
+              <input
+                type="password"
+                placeholder="Password"
+                id="signupPassword"
+                class="input"
+                required
+              />
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="inputBox">
+              <input
+                type="password"
+                placeholder="Confirm Password"
+                id="signupConfirmPassword"
+                class="input"
+                required
+              />
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+            <div class="registerLink">
+              <p class="registerText">
+                Already have an account?
+                <a
+                  href="#sectionLogIn"
+                  onclick="display('sectionLogIn')"
+                  class="registerLinkText"
+                  >Log In</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Log In -->
+    <div id="sectionLogIn" style="display: none" class="sectionLogIn">
+      <div class="logIn-container">
+        <img
+          src="https://cdn.discordapp.com/attachments/1285907092854669323/1302562210903752764/artezza_logo-removebg-preview.png?ex=672a8b57&is=672939d7&hm=a2fa748bb04275f2cb2de16db9582f481398221161943cdeb053ac213cbf6523&"
+          alt="Logo"
+          class="logLogo"
+        />
+        <h1 class="loginText">Welcome</h1>
+        <div class="loginInfo">
+          <form id="loginForm" onsubmit="validateLoginForm(event)">
+            <div class="inputBox">
+              <input
+                type="text"
+                placeholder="User Name"
+                id="loginUsername"
+                class="input"
+                required
+              />
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="inputBox">
+              <input
+                type="password"
+                placeholder="Password"
+                id="loginPassword"
+                class="input"
+                required
+              />
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <button type="submit" class="btn">Log In</button>
+            <div class="registerLink">
+              <p class="registerText">
+                Don't have an account?
+                <a
+                  href="#sectionSignup"
+                  onclick="display('sectionSignup')"
+                  class="registerLinkText"
+                  >Register</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="fotterLogo">
+        <img
+          src="https://cdn.discordapp.com/attachments/1285907092854669323/1302562210903752764/artezza_logo-removebg-preview.png?ex=672a8b57&is=672939d7&hm=a2fa748bb04275f2cb2de16db9582f481398221161943cdeb053ac213cbf6523&"
+          alt="Logo"
+          class="footerLogoImg"
+        />
+      </div>
+      <div class="about-company">
+        <div class="container">
+          <a href="#" class="footerlinks">About Us</a>
+          <a href="" class="links"></a>
+          <a href="" class="links"></a>
+          <a href="" class="links"></a>
+        </div>
+        <div class="container">
+          <a href="#" class="footerlinks">Company</a>
+          <a href="" class="links"></a>
+          <a href="" class="links"></a>
+          <a href="" class="links"></a>
+        </div>
+        <div class="container">
+          <a href="#" class="footerlinks">Support</a>
+          <a href="" class="links"></a>
+          <a href="" class="links"></a>
+          <a href="" class="links"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy"></div>
+    <!-- Script -->
+
+    <script>
+      function toggleMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("show");
+      }
+      function display(sectionId) {
+        const sections = [
+          "sectionhome",
+          "sectionSignup",
+          "sectionLogIn",
+          "sectiongallery",
+          "sectionaboutus",
+        ];
+        sections.forEach((id) => {
+          document.getElementById(id).style.display =
+            id === sectionId ? "block" : "none";
+        });
+      }
+
+      function handleSubmit(event) {
+        event.preventDefault();
+        alert("Form submitted!");
+      }
+
+      window.onload = function () {
+        display("sectionhome");
+      };
+      function validateSignupForm(event) {
+        event.preventDefault();
+        const username = document.getElementById("signupUsername").value;
+        const email = document.getElementById("signupEmail").value;
+        const password = document.getElementById("signupPassword").value;
+        const confirmPassword = document.getElementById(
+          "signupConfirmPassword"
+        ).value;
+
+        if (!/^[a-zA-Z0-9_]{3,20}$/.test(username)) {
+          alert(
+            "Username must be between 3-20 characters and contain only letters, numbers, or underscores."
+          );
+          return false;
+        }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+          alert("Please enter a valid email address.");
+          return false;
+        }
+        if (password.length < 8) {
+          alert("Password must be at least 8 characters.");
+          return false;
+        }
+        if (password !== confirmPassword) {
+          alert("Passwords do not match.");
+          return false;
+        }
+        alert("Signup successful!");
+        display("sectionLogIn");
+      }
+
+      function validateLoginForm(event) {
+        event.preventDefault();
+        const username = document.getElementById("loginUsername").value;
+        const password = document.getElementById("loginPassword").value;
+        if (password.length < 8) {
+          alert("Password must be at least 8 characters.");
+          return false;
+        }
+        if (!username || !password) {
+          alert("Please fill in both fields.");
+          return false;
+        }
+        alert("Login successful!");
+        display("sectionhome");
+      }
+    </script>
+  </body>
+</html>
+
+<!--       _
+       .__(.)< (MEOW)
+        \___)
+~~~~~~~~~~~~~~~~~~~~~ -->
